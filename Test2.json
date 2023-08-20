@@ -9,19 +9,5 @@
       "children": 
         {"name": "indicator","size": 3938}
      },
-     {"name": "environmentalRanking",
-      {"name": "Score ","size": 3938},
-      {"name": "peerPercentileGroup ","size": 3938},
-      {"name": "averagePeerScore ","size": 3938},
-      {"name": "scoreReasons ",
-                    "children": [
-                       
-                            {"name": "description ","size": 3938},
-                            {"name": "dnbCode ","size": 3938},
-                            {"name": "priority ","size": 3938}
-                       ]},
-
-      
+   ]
 }
-]
-     }
