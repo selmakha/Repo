@@ -7,7 +7,7 @@
      "name": "averagePeerScore ",
      "name": "dataDepth ",
      "children": 
-           {"name": "indicator",} 
+           {"name": "indicator","size": 3938}
      "name": "environmentalRanking",
      "children": [
            {
