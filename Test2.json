@@ -2,120 +2,61 @@
     "name": "ESG_RANKING",
     "children": 
     [
-     {"name": "Score", "size": 16540},
-     {"name": "peerPercentileGroup", "size": 16540},
-     {"name": "averagePeerScore ", "size": 16540},
+     {"name": "Score", "size": 136589},
+     {"name": "peerPercentileGroup", "size": 136589},
+     {"name": "averagePeerScore ", "size": 136589},
      {"name": "dataDepth ",
       "children": 
-        {"name": "indicator", "size": 10000}
+        {"name": "indicator", "size": 3502}
      },
      {"name": "environmentalRanking",
      "children": 
          [
-                {"name": "Score", "size": 10000},
-                {"name": "peerPercentileGroup ", "size": 10000},
-                {"name": "averagePeerScore", "size": 10000},
+                {"name": "Score", "size": 3502},
+                {"name": "peerPercentileGroup ", "size": 3502},
+                {"name": "averagePeerScore", "size": 3502},
                 {"name": "scoreReasons",
                  "children": [
                        
-                            {"name": "description", "size": 3938},
-                            {"name": "dnbCode", "size": 3938},
-                            {"name": "priority", "size": 3938}
+                            {"name": "description", "size": 79},
+                            {"name": "dnbCode", "size": 79},
+                            {"name": "priority", "size": 79}
                             
                 ]},
-                {"name": "naturalResourcesScore", "size": 10000},
+                {"name": "naturalResourcesScore", "size": 3502},
                 {"name": "naturalResourcesTopics",
                 "children": [
                        
-                        {"name": "energyManagementScore", "size": 3938},
-                        {"name": "energyManagementScore", "size": 3938},
-                        {"name": "landUseBiodiversityScore", "size": 3938}, 
-                        {"name": "materialsSourcingManagementScore", "size": 3938},
-                        {"name": "pollutionPreventionManagementScore", "size": 3938},
-                        {"name": "wasteHazardsManagementScore", "size": 3938},
-                        {"name": "waterManagementScore", "size": 3938}
+                        {"name": "energyManagementScore", "size": 79},
+                        {"name": "energyManagementScore", "size": 79},
+                        {"name": "landUseBiodiversityScore", "size": 79}, 
+                        {"name": "materialsSourcingManagementScore", "size": 79},
+                        {"name": "pollutionPreventionManagementScore", "size": 79},
+                        {"name": "wasteHazardsManagementScore", "size": 79},
+                        {"name": "waterManagementScore", "size": 79}
                        ]},
                 {"name": "emissionsClimateScore",
                 "children": 
                         {"name": "emissionsClimateTopics",
                          "children":
-                               {"name": "ghgEmissionsScore", "size": 3938}
+                               {"name": "ghgEmissionsScore", "size": 79}
                         }
                 },
             
               {"name": "riskTopics ",
               "children": 
-                       {"name": "environmentalComplianceScore", "size": 10000}
+                       {"name": "environmentalComplianceScore", "size": 79}
               },
              {"name": "opportunitiesTopics ",
              "children": [
-                       {"name": "environmentalCertificationsScore", "size": 3938},
-                       {"name": "environmentalOpportunitiesScore", "size": 3938}
+                       {"name": "environmentalCertificationsScore", "size": 79},
+                       {"name": "environmentalOpportunitiesScore", "size": 79}
                     ]},
                {"name": "dataDepth",
                     "children":
-                       {"name": "indicator", "size": 10000}
+                       {"name": "indicator", "size": 79}
                }
          ]
      }
-     {"name": "socialRanking",
-     "children": [
-           
-                {"name": "Score", "size": 16540},
-                {"name": "peerPercentileGroup", "size": 16540},
-                {"name": "averagePeerScore", "size": 16540},
-                {"name": "scoreReasons",
-                    "children": [
-                       
-                            {"name": "description", "size": 10010},
-                            {"name": "dnbCode", "size": 10000},
-                            {"name": "priority", "size": 10000}
-                       ]},
-               {"name": "communityScore", "size": 16540},   
-               {"name": "communityTopics",  
-                    "children": [
-                       
-                            {"name": "communityEngagementScore", "size": 10000},
-                            {"name": "corporatePhilanthropyScore", "size": 10000},
-                            {"name": "priority", "size": 3938}
-                       ]},
-                {"name": "customerScore", "size": 16540},
-                {"name": "customeTopics",
-                    "children": [
-                       
-                            {"name": "productServiceScore", "size": 10000},
-                            {"name": "dataPrivacyScore", "size": 10000}
-                       ]},
-                {"name": "humanCapitalScore", "size": 16540},
-                {"name": "humanCapitalTopics",
-                    "children": [
-                       
-                            {"name": "diversityIclusionScore", "size": 3938},
-                            {"name": "healthSafetyScore", "size": 3938},
-                            {"name": "humanRightsAbusesScore", "size": 3938},
-                            {"name": "laborRelationScore", "size": 3938},
-                            {"name": "trainingEducationScore", "size": 3938}
-                       ]},
-                {"name": "productServiceScore", "size": 16540},
-                {"name": "productServiceTopics",
-                    "children": [
-                       
-                            {"name": "cyberRiskScore", "size": 3938},
-                            {"name": "productQualityManagementScore", "size": 3938}
-                       ]},
-                {"name": "SupplierScore", "size": 16540},
-                {"name": "SupplierTopics",
-                "children": 
-                            {"name": "supplierEngagementScore", "size": 3938}
-                },    
-                {"name": "certificationsScore", "size": 16540},
-                {"name": "certificationsTopics",
-                "children": 
-                       {"name": "socialRelatedCertificationScore", "size": 3938}
-                },        
-                {"name": "dataDepth",
-                "children": 
-                       { "name": "indicator", "size": 3938}
-                }
-           ]
-     }
+    ]
+}
