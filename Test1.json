@@ -57,7 +57,7 @@
                        {"name": "indicator", "size": 79}
                }
          ]
-     }
+     },
      {"name": "socialRanking",
      "children": [
            
@@ -118,7 +118,7 @@
                        { "name": "indicator", "size": 79}
                 }
            ]
-     }
+     },
 
      {"name": "governanceRanking",
         "children": [
