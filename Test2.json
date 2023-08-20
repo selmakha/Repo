@@ -15,7 +15,47 @@
                 {"name": "Score", "size": 3938},
                 {"name": "peerPercentileGroup ", "size": 3938},
                 {"name": "averagePeerScore", "size": 3938},
-                {"name": "scoreReasons", "size": 3938}
+                {"name": "scoreReasons",
+                 "children": [
+                       
+                            {"name": "description", "size": 3938},
+                            {"name": "dnbCode", "size": 3938},
+                            {"name": "priority", "size": 3938}
+                            
+                ]},
+                {"name": "naturalResourcesScore", "size": 3938},
+                {"name": "naturalResourcesTopics",
+                "children": [
+                       
+                        {"name": "energyManagementScore", "size": 3938},
+                        {"name": "energyManagementScore", "size": 3938},
+                        {"name": "landUseBiodiversityScore", "size": 3938}, 
+                        {"name": "materialsSourcingManagementScore", "size": 3938},
+                        {"name": "pollutionPreventionManagementScore", "size": 3938},
+                        {"name": "wasteHazardsManagementScore", "size": 3938},
+                        {"name": "waterManagementScore", "size": 3938}
+                       ]},
+                {"name": "emissionsClimateScore",
+                "children": 
+                        {"name": "emissionsClimateTopics",
+                         "children":
+                               {"name": "ghgEmissionsScore", "size": 3938}
+                        }
+                },
+            
+              {"name": "riskTopics ",
+              "children": 
+                       {"name": "environmentalComplianceScore", "size": 3938}
+              },
+             {"name": "opportunitiesTopics ",
+             "children": [
+                       {"name": "environmentalCertificationsScore", "size": 3938},
+                       {"name": "environmentalOpportunitiesScore", "size": 3938}
+                    ]},
+               {"name": "dataDepth",
+                    "children":
+                       {"name": "indicator", "size": 3938}
+               }
          ]
      }
     ]
