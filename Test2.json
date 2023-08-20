@@ -2,7 +2,7 @@
     "name": "ESG_RANKING",
     "children": 
     [
-     {"name": "Score ","size": 3938},
+     {"name": "Score","size": 3938},
      {"name": "peerPercentileGroup","size": 3938},
      {"name": "averagePeerScore","size": 3938},
    ]
