@@ -1,165 +1,356 @@
 {
-    "name": "ESG RANKING",
-    "children": 
-    [
-     {"name": "Score ","size": 3938},
-     {"name": "peerPercentileGroup ","size": 3938},
-     {"name": "averagePeerScore ","size": 3938},
-     {
-         "name": "dataDepth ",
-         "children": 
-               {"name": "indicator","size": 3938}
-     },
-     {"name": "environmentalRanking",
-     "children": 
-         [
-                {"name": "Score ","size": 3938},
-                {"name": "peerPercentileGroup ","size": 3938},
-                {"name": "averagePeerScore ","size": 3938},
-                {"name": "scoreReasons ",
-                "children": [
-                       
-                            {"name": "description ", "size": 3938},
-                            {"name": "dnbCode ","size": 3938},
-                            {"name": "priority ", "size": 3938}
-                            
-                ]},
-                {"name": "naturalResourcesScore ","size": 3938},
-                {"name": "naturalResourcesTopics ",
-                "children": [
-                       
-                        {"name": "energyManagementScore ", "size": 3938},
-                        {"name": "energyManagementScore ","size": 3938},
-                        {"name": "landUseBiodiversityScore ","size": 3938}, 
-                        {"name": "materialsSourcingManagementScore ","size": 3938},
-                        {"name": "pollutionPreventionManagementScore ","size": 3938},
-                        {"name": "wasteHazardsManagementScore ","size": 3938},
-                        {"name": "waterManagementScore ", "size": 3938}
-                       ]},
-                {"name": "emissionsClimateScore ",
-                "children": 
-                        {"name": "emissionsClimateTopics ",
-                         "children":
-                               {"name": "ghgEmissionsScore ","size": 3938}
-                        }
-                },
-            
-              {"name": "riskTopics ",
-              "children": 
-                       {"name": "environmentalComplianceScore ","size": 3938}
-              },
-             {"name": "opportunitiesTopics ",
-             "children": [
-                       {"name": "environmentalCertificationsScore ","size": 3938},
-                       {"name": "environmentalOpportunitiesScore ","size": 3938}
-                    ]},
-               {"name": "dataDepth ",
-                    "children":
-                       {"name": "indicator ","size": 3938}
-               }
-         ]
-     }
-     {"name": "socialRanking",
-     "children": [
-           
-                {"name": "Score ","size": 3938},
-                {"name": "peerPercentileGroup ","size": 3938},
-                {"name": "averagePeerScore ","size": 3938},
-                {"name": "scoreReasons ",
-                    "children": [
-                       
-                            {"name": "description ","size": 3938},
-                            {"name": "dnbCode ","size": 3938},
-                            {"name": "priority ","size": 3938}
-                       ]},
-               {"name": "communityScore ","size": 3938},   
-               {"name": "communityTopics ",  
-                    "children": [
-                       
-                            {"name": "communityEngagementScore ","size": 3938},
-                            {"name": "corporatePhilanthropyScore ","size": 3938},
-                            {"name": "priority ","size": 3938}
-                       ]},
-                {"name": "customerScore ","size": 3938},
-                {"name": "customeTopics ",
-                    "children": [
-                       
-                            {"name": "productServiceScore ","size": 3938},
-                            {"name": "dataPrivacyScore ","size": 3938}
-                       ]},
-                {"name": "humanCapitalScore ","size": 3938},
-                {"name": "humanCapitalTopics ",
-                    "children": [
-                       
-                            {"name": "diversityIclusionScore ","size": 3938},
-                            {"name": "healthSafetyScore ","size": 3938},
-                            {"name": "humanRightsAbusesScore ","size": 3938},
-                            {"name": "laborRelationScore ","size": 3938},
-                            {"name": "trainingEducationScore ","size": 3938}
-                       ]},
-                {"name": "productServiceScore ","size": 3938},
-                {"name": "productServiceTopics ",
-                    "children": [
-                       
-                            {"name": "cyberRiskScore ","size": 3938},
-                            {"name": "productQualityManagementScore ","size": 3938}
-                       ]},
-                {"name": "SupplierScore ","size": 3938},
-                {"name": "SupplierTopics ",
-                "children": 
-                            {"name": "supplierEngagementScore ","size": 3938}
-                },    
-                {"name": "certificationsScore ","size": 3938},
-                {"name": "certificationsTopics ",
-                "children": 
-                       {"name": "socialRelatedCertificationScore ","size": 3938}
-                },        
-                {"name": "dataDepth ",
-                "children": 
-                       { "name": "indicator ","size": 3938}
-                }
-           ]
-     }
+	"name": "ESG_RANKING","children":[
+	{
+	"name": "Score","size": 16540}
 
-     {"name": "governanceRanking",
-        "children": [
-           
-                {"name": "Score ","size": 3938},
-                {"name": "peerPercentileGroup ","size": 3938},
-                {"name": "averagePeerScore ","size": 3938},
-                {"name": "scoreReasons ",
-                "children": [
-                       
-                            {"name": "description ","size": 3938},
-                            {"name": "dnbCode ","size": 3938},
-                            {"name": "priority ","size": 3938}
-                       ]},
-                {"name": "BuisinessResilienceScore ","size": 3938},
-                {"name": "humanCapitalTopics ",
-                 "children": 
-                       {"name": "buisinessResilienceSustainabilityScore ","size": 3938}
-                },
-                {"name": "corporateBehaviorScore ","size": 3938},
-                {"name": "corporateBehaviorTopics ",
-                "children": [
-                       
-                            {"name": "corporateComplianceBehaviorScore ","size": 3938},
-                            {"name": "governanceRelatesCertificationsScore ","size": 3938}
-                       ]},
-                {"name": "corporateGovernanceScore ","size": 3938},
-                {"name": "corporateGovernanceTopics ",
-                    "children": [
-                       
-                            {"name": "boardAccounabilityScore ","size": 3938},
-                            {"name": "businessEthicsScore ","size": 3938},
-                            {"name": "BuisinessTransparencyScore ","size": 3938},
-                            {"name": "shareholderRightsScore ","size": 3938}
-                       ]},
-                {"name": "dataDepth ",
-                "children": 
-                       {"name": "indicator ","size": 3938}
-                }
-     ]
-   }
- ]
-}
+	,
+	{
+	"name": "peerPercentileGroup","size": 16540}
+
+	,
+	{
+	"name": "averagePeerScore","size": 16540}
+
+	,
+	{
+		"name": "dataDepth","children":
+		{
+		"name": "indicator","size": 9317}
+	}
+
+	,
+	{
+		"name": "environmentalRanking","children":[
+		{
+		"name": "Score ","size": 9317}
+
+		,
+		{
+		"name": "peerPercentileGroup ","size": 9317}
+
+		,
+		{
+		"name": "averagePeerScore ","size": 9317}
+
+		,
+		{
+			"name": "scoreReasons ","children": [
+			{
+			"name": "description", "size": 9317}
+
+			,
+			{
+			"name": "dnbCode","size": 9317}
+
+			,
+			{
+			"name": "priority ", "size": 9317}
+
+		]}
+
+		,
+		{
+		"name": "naturalResourcesScore ","size": 9317}
+
+		,
+		{
+			"name": "naturalResourcesTopics ","children": [
+			{
+			"name": "energyManagementScore ", "size": 3938}
+
+			,
+			{
+			"name": "energyManagementScore ","size": 3938}
+
+			,
+			{
+			"name": "landUseBiodiversityScore ","size": 3938}
+
+			,
+			{
+			"name": "materialsSourcingManagementScore ","size": 3938}
+
+			,
+			{
+			"name": "pollutionPreventionManagementScore ","size": 3938}
+
+			,
+			{
+			"name": "wasteHazardsManagementScore ","size": 3938}
+
+			,
+			{
+			"name": "waterManagementScore ", "size": 3938}
+
+		]}
+
+		,
+		{
+			"name": "emissionsClimateScore ","children":
+			{
+				"name": "emissionsClimateTopics ","children":
+				{
+				"name": "ghgEmissionsScore ","size": 3938}
+			}
+		}
+
+		,
+		{
+			"name": "riskTopics ","children":
+			{
+			"name": "environmentalComplianceScore ","size": 9317}
+		}
+
+		,
+		{
+			"name": "opportunitiesTopics ","children": [
+			{
+			"name": "environmentalCertificationsScore ","size": 3938}
+
+			,
+			{
+			"name": "environmentalOpportunitiesScore ","size": 3938}
+
+		]}
+
+		,
+		{
+			"name": "dataDepth ","children":
+			{
+			"name": "indicator ","size": 9317}
+		}
+
+	]}
+
+	
+	{
+		"name": "socialRanking","children": [
+		{
+		"name": "Score ","size": 9317}
+
+		,
+		{
+		"name": "peerPercentileGroup ","size": 9317}
+
+		,
+		{
+		"name": "averagePeerScore ","size": 9317}
+
+		,
+		{
+			"name": "scoreReasons ","children": [
+			{
+			"name": "description ","size": 3938}
+
+			,
+			{
+			"name": "dnbCode ","size": 3938}
+
+			,
+			{
+			"name": "priority ","size": 3938}
+
+		]}
+
+		,
+		{
+		"name": "communityScore ","size": 9317}
+
+		,
+		{
+			"name": "communityTopics ","children": [
+			{
+			"name": "communityEngagementScore ","size": 3938}
+
+			,
+			{
+			"name": "corporatePhilanthropyScore ","size": 3938}
+
+			,
+			{
+			"name": "priority ","size": 3938}
+
+		]}
+
+		,
+		{
+		"name": "customerScore ","size": 9317}
+
+		,
+		{
+			"name": "customeTopics ","children": [
+			{
+			"name": "productServiceScore ","size": 3938}
+
+			,
+			{
+			"name": "dataPrivacyScore ","size": 3938}
+
+		]}
+
+		,
+		{
+		"name": "humanCapitalScore ","size": 9317}
+
+		,
+		{
+			"name": "humanCapitalTopics ","children": [
+			{
+			"name": "diversityIclusionScore ","size": 3938}
+
+			,
+			{
+			"name": "healthSafetyScore ","size": 3938}
+
+			,
+			{
+			"name": "humanRightsAbusesScore ","size": 3938}
+
+			,
+			{
+			"name": "laborRelationScore ","size": 3938}
+
+			,
+			{
+			"name": "trainingEducationScore ","size": 3938}
+
+		]}
+
+		,
+		{
+		"name": "productServiceScore ","size": 9317}
+
+		,
+		{
+			"name": "productServiceTopics ","children": [
+			{
+			"name": "cyberRiskScore ","size": 3938}
+
+			,
+			{
+			"name": "productQualityManagementScore ","size": 3938}
+
+		]}
+
+		,
+		{
+		"name": "SupplierScore ","size": 9317}
+
+		,
+		{
+			"name": "SupplierTopics ","children":
+			{
+			"name": "supplierEngagementScore ","size": 3938}
+		}
+
+		,
+		{
+		"name": "certificationsScore ","size": 9317}
+
+		,
+		{
+			"name": "certificationsTopics ","children":
+			{
+			"name": "socialRelatedCertificationScore ","size": 3938}
+		}
+
+		,
+		{
+			"name": "dataDepth ","children":
+			{
+			"name": "indicator ","size": 3938}
+		}
+
+	]}
+
+	
+	{
+		"name": "governanceRanking","children": [
+		{
+		"name": "Score ","size": 9317}
+
+		,
+		{
+		"name": "peerPercentileGroup ","size": 9317}
+
+		,
+		{
+		"name": "averagePeerScore ","size": 9317}
+
+		,
+		{
+			"name": "scoreReasons ","children": [
+			{
+			"name": "description ","size": 3938}
+
+			,
+			{
+			"name": "dnbCode ","size": 3938}
+
+			,
+			{
+			"name": "priority ","size": 3938}
+
+		]}
+
+		,
+		{
+		"name": "BuisinessResilienceScore ","size": 9317}
+
+		,
+		{
+			"name": "humanCapitalTopics ","children":
+			{
+			"name": "buisinessResilienceSustainabilityScore ","size": 3938}
+		}
+
+		,
+		{
+		"name": "corporateBehaviorScore ","size": 9317}
+
+		,
+		{
+			"name": "corporateBehaviorTopics ","children": [
+			{
+			"name": "corporateComplianceBehaviorScore ","size": 3938}
+
+			,
+			{
+			"name": "governanceRelatesCertificationsScore ","size": 3938}
+
+		]}
+
+		,
+		{
+		"name": "corporateGovernanceScore ","size": 9317}
+
+		,
+		{
+			"name": "corporateGovernanceTopics ","children": [
+			{
+			"name": "boardAccounabilityScore ","size": 3938}
+
+			,
+			{
+			"name": "businessEthicsScore ","size": 3938}
+
+			,
+			{
+			"name": "BuisinessTransparencyScore ","size": 3938}
+
+			,
+			{
+			"name": "shareholderRightsScore ","size": 3938}
+
+		]}
+
+		,
+		{
+			"name": "dataDepth ","children":
+			{
+			"name": "indicator ","size": 9317}
+		}
+
+	]}
+
+]}
