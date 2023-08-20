@@ -2,28 +2,28 @@
     "name": "ESG_RANKING",
     "children": 
     [
-     {"name": "Score", "size": 3938},
-     {"name": "peerPercentileGroup", "size": 3938},
-     {"name": "averagePeerScore ", "size": 3938},
+     {"name": "Score", "size": 16000},
+     {"name": "peerPercentileGroup", "size": 16000},
+     {"name": "averagePeerScore ", "size": 16000},
      {"name": "dataDepth ",
       "children": 
-        {"name": "indicator", "size": 3938}
+        {"name": "indicator", "size": 10000}
      },
      {"name": "environmentalRanking",
      "children": 
          [
-                {"name": "Score", "size": 3938},
-                {"name": "peerPercentileGroup ", "size": 3938},
-                {"name": "averagePeerScore", "size": 3938},
+                {"name": "Score", "size": 10000},
+                {"name": "peerPercentileGroup ", "size": 10000},
+                {"name": "averagePeerScore", "size": 10000},
                 {"name": "scoreReasons",
                  "children": [
                        
-                            {"name": "description", "size": 3938},
-                            {"name": "dnbCode", "size": 3938},
-                            {"name": "priority", "size": 3938}
+                            {"name": "description", "size": 9000},
+                            {"name": "dnbCode", "size": 9000},
+                            {"name": "priority", "size": 9000}
                             
                 ]},
-                {"name": "naturalResourcesScore", "size": 3938},
+                {"name": "naturalResourcesScore", "size": 10000},
                 {"name": "naturalResourcesTopics",
                 "children": [
                        
