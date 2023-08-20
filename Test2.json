@@ -58,5 +58,66 @@
                }
          ]
      }
+     {"name": "socialRanking",
+     "children": [
+           
+                {"name": "Score", "size": 3502},
+                {"name": "peerPercentileGroup", "size": 3502},
+                {"name": "averagePeerScore", "size": 3502},
+                {"name": "scoreReasons",
+                    "children": [
+                       
+                            {"name": "description", "size": 79},
+                            {"name": "dnbCode", "size": 79},
+                            {"name": "priority", "size": 79}
+                       ]},
+               {"name": "communityScore", "size": 79},   
+               {"name": "communityTopics",  
+                    "children": [
+                       
+                            {"name": "communityEngagementScore", "size": 79},
+                            {"name": "corporatePhilanthropyScore", "size": 79},
+                            {"name": "priority", "size": 79}
+                       ]},
+                {"name": "customerScore", "size": 3502},
+                {"name": "customeTopics",
+                    "children": [
+                       
+                            {"name": "productServiceScore", "size": 79},
+                            {"name": "dataPrivacyScore", "size": 79}
+                       ]},
+                {"name": "humanCapitalScore", "size": 79},
+                {"name": "humanCapitalTopics",
+                    "children": [
+                       
+                            {"name": "diversityIclusionScore", "size": 79},
+                            {"name": "healthSafetyScore", "size": 79},
+                            {"name": "humanRightsAbusesScore", "size": 79},
+                            {"name": "laborRelationScore", "size": 79},
+                            {"name": "trainingEducationScore", "size": 79}
+                       ]},
+                {"name": "productServiceScore", "size": 3502},
+                {"name": "productServiceTopics",
+                    "children": [
+                       
+                            {"name": "cyberRiskScore", "size": 79},
+                            {"name": "productQualityManagementScore", "size": 79}
+                       ]},
+                {"name": "SupplierScore", "size": 3502},
+                {"name": "SupplierTopics",
+                "children": 
+                            {"name": "supplierEngagementScore", "size": 79}
+                },    
+                {"name": "certificationsScore", "size": 3502},
+                {"name": "certificationsTopics",
+                "children": 
+                       {"name": "socialRelatedCertificationScore", "size": 79}
+                },        
+                {"name": "dataDepth",
+                "children": 
+                       { "name": "indicator", "size": 79}
+                }
+           ]
+     }
     ]
 }
