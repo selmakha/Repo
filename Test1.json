@@ -31,7 +31,7 @@
                         {"name": "pollutionPreventionManagementScore ","size": 3938},
                         {"name": "wasteHazardsManagementScore ","size": 3938},
                         {"name": "waterManagementScore ", "size": 3938}
-                       ]};
+                       ]},
                 {"name": "emissionsClimateScore ",
                 "children": 
                         {"name": "emissionsClimateTopics ",
@@ -43,7 +43,7 @@
               {"name": "riskTopics ",
               "children": 
                        {"name": "environmentalComplianceScore ","size": 3938}
-              };
+              },
              {"name": "opportunitiesTopics ",
              "children": [
                        {"name": "environmentalCertificationsScore ","size": 3938},
