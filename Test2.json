@@ -2,9 +2,9 @@
     "name": "ESG_RANKING",
     "children": 
     [
-     {"name": "Score", "size": 136589},
-     {"name": "peerPercentileGroup", "size": 136589},
-     {"name": "averagePeerScore ", "size": 136589},
+     {"name": "Score", "size": 4000},
+     {"name": "peerPercentileGroup", "size": 4000},
+     {"name": "averagePeerScore ", "size": 4000},
      {"name": "dataDepth ",
       "children": 
         {"name": "indicator", "size": 3502}
@@ -12,9 +12,9 @@
      {"name": "environmentalRanking",
      "children": 
          [
-                {"name": "Score", "size": 3502},
-                {"name": "peerPercentileGroup ", "size": 3502},
-                {"name": "averagePeerScore", "size": 3502},
+                {"name": "Score", "size": 35002},
+                {"name": "peerPercentileGroup ", "size": 35002},
+                {"name": "averagePeerScore", "size": 35002},
                 {"name": "scoreReasons",
                  "children": [
                        
@@ -23,7 +23,7 @@
                             {"name": "priority", "size": 79}
                             
                 ]},
-                {"name": "naturalResourcesScore", "size": 3502},
+                {"name": "naturalResourcesScore", "size": 35002},
                 {"name": "naturalResourcesTopics",
                 "children": [
                        
@@ -61,9 +61,9 @@
      {"name": "socialRanking",
      "children": [
            
-                {"name": "Score", "size": 3502},
-                {"name": "peerPercentileGroup", "size": 3502},
-                {"name": "averagePeerScore", "size": 3502},
+                {"name": "Score", "size": 35002},
+                {"name": "peerPercentileGroup", "size": 35002},
+                {"name": "averagePeerScore", "size": 35002},
                 {"name": "scoreReasons",
                     "children": [
                        
@@ -79,7 +79,7 @@
                             {"name": "corporatePhilanthropyScore", "size": 79},
                             {"name": "priority", "size": 79}
                        ]},
-                {"name": "customerScore", "size": 3502},
+                {"name": "customerScore", "size": 35002},
                 {"name": "customeTopics",
                     "children": [
                        
@@ -108,7 +108,7 @@
                 "children": 
                             {"name": "supplierEngagementScore", "size": 79}
                 },    
-                {"name": "certificationsScore", "size": 3502},
+                {"name": "certificationsScore", "size": 35002},
                 {"name": "certificationsTopics",
                 "children": 
                        {"name": "socialRelatedCertificationScore", "size": 79}
