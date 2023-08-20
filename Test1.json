@@ -1,7 +1,6 @@
 {
     "name": "ESG RANKING",
     "children": [
-     {
      "name": "Score ",
      "name": "peerPercentileGroup ",
      "name": "averagePeerScore ",
@@ -144,8 +143,8 @@
                             {"name": "shareholderRightsScore ","size": 3938}
                        ]
                 "name": "dataDepth ",
-                    "children": 
+                "children": 
                        {"name": "indicator ","size": 3938}
-           ]
+     ]
  ]
 }
