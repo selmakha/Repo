@@ -2,9 +2,9 @@
     "name": "ESG_RANKING",
     "children": 
     [
-     {"name": "Score", "size": 16000},
-     {"name": "peerPercentileGroup", "size": 16000},
-     {"name": "averagePeerScore ", "size": 16000},
+     {"name": "Score", "size": 16540},
+     {"name": "peerPercentileGroup", "size": 16540},
+     {"name": "averagePeerScore ", "size": 16540},
      {"name": "dataDepth ",
       "children": 
         {"name": "indicator", "size": 10000}
@@ -18,9 +18,9 @@
                 {"name": "scoreReasons",
                  "children": [
                        
-                            {"name": "description", "size": 9000},
-                            {"name": "dnbCode", "size": 9000},
-                            {"name": "priority", "size": 9000}
+                            {"name": "description", "size": 3938},
+                            {"name": "dnbCode", "size": 3938},
+                            {"name": "priority", "size": 3938}
                             
                 ]},
                 {"name": "naturalResourcesScore", "size": 10000},
@@ -45,7 +45,7 @@
             
               {"name": "riskTopics ",
               "children": 
-                       {"name": "environmentalComplianceScore", "size": 3938}
+                       {"name": "environmentalComplianceScore", "size": 10000}
               },
              {"name": "opportunitiesTopics ",
              "children": [
@@ -54,9 +54,68 @@
                     ]},
                {"name": "dataDepth",
                     "children":
-                       {"name": "indicator", "size": 3938}
+                       {"name": "indicator", "size": 10000}
                }
          ]
      }
-    ]
-}
+     {"name": "socialRanking",
+     "children": [
+           
+                {"name": "Score", "size": 16540},
+                {"name": "peerPercentileGroup", "size": 16540},
+                {"name": "averagePeerScore", "size": 16540},
+                {"name": "scoreReasons",
+                    "children": [
+                       
+                            {"name": "description", "size": 10010},
+                            {"name": "dnbCode", "size": 10000},
+                            {"name": "priority", "size": 10000}
+                       ]},
+               {"name": "communityScore", "size": 16540},   
+               {"name": "communityTopics",  
+                    "children": [
+                       
+                            {"name": "communityEngagementScore", "size": 10000},
+                            {"name": "corporatePhilanthropyScore", "size": 10000},
+                            {"name": "priority", "size": 3938}
+                       ]},
+                {"name": "customerScore", "size": 16540},
+                {"name": "customeTopics",
+                    "children": [
+                       
+                            {"name": "productServiceScore", "size": 10000},
+                            {"name": "dataPrivacyScore", "size": 10000}
+                       ]},
+                {"name": "humanCapitalScore", "size": 16540},
+                {"name": "humanCapitalTopics",
+                    "children": [
+                       
+                            {"name": "diversityIclusionScore", "size": 3938},
+                            {"name": "healthSafetyScore", "size": 3938},
+                            {"name": "humanRightsAbusesScore", "size": 3938},
+                            {"name": "laborRelationScore", "size": 3938},
+                            {"name": "trainingEducationScore", "size": 3938}
+                       ]},
+                {"name": "productServiceScore", "size": 16540},
+                {"name": "productServiceTopics",
+                    "children": [
+                       
+                            {"name": "cyberRiskScore", "size": 3938},
+                            {"name": "productQualityManagementScore", "size": 3938}
+                       ]},
+                {"name": "SupplierScore", "size": 16540},
+                {"name": "SupplierTopics",
+                "children": 
+                            {"name": "supplierEngagementScore", "size": 3938}
+                },    
+                {"name": "certificationsScore", "size": 16540},
+                {"name": "certificationsTopics",
+                "children": 
+                       {"name": "socialRelatedCertificationScore", "size": 3938}
+                },        
+                {"name": "dataDepth",
+                "children": 
+                       { "name": "indicator", "size": 3938}
+                }
+           ]
+     }
