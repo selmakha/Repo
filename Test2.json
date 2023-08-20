@@ -5,9 +5,5 @@
      {"name": "Score ","size": 3938},
      {"name": "peerPercentileGroup","size": 3938},
      {"name": "averagePeerScore","size": 3938},
-     {"name": "dataDepth",
-      "children": 
-        {"name": "indicator","size": 3938}
-     }
    ]
 }
