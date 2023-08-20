@@ -118,6 +118,45 @@
                        { "name": "indicator", "size": 79}
                 }
            ]
-     }
+     },
+    {"name": "governanceRanking",
+        "children": [
+           
+                {"name": "Score", "size": 35002},
+                {"name": "peerPercentileGroup", "size": 35002},
+                {"name": "averagePeerScore", "size": 35002},
+                {"name": "scoreReasons",
+                "children": [
+                       
+                            {"name": "description", "size": 79},
+                            {"name": "dnbCode", "size": 79},
+                            {"name": "priority", "size": 79}
+                       ]},
+                {"name": "BuisinessResilienceScore", "size": 35002},
+                {"name": "humanCapitalTopic",
+                 "children": 
+                       {"name": "buisinessResilienceSustainabilityScore", "size": 79}
+                },
+                {"name": "corporateBehaviorScore", "size": 35002},
+                {"name": "corporateBehaviorTopics",
+                "children": [
+                       
+                            {"name": "corporateComplianceBehaviorScore", "size": 79},
+                            {"name": "governanceRelatesCertificationsScore", "size": 79}
+                       ]},
+                {"name": "corporateGovernanceScore", "size": 35002},
+                {"name": "corporateGovernanceTopics",
+                    "children": [
+                       
+                            {"name": "boardAccounabilityScore", "size": 79},
+                            {"name": "businessEthicsScore", "size": 79},
+                            {"name": "BuisinessTransparencyScore", "size": 79},
+                            {"name": "shareholderRightsScore", "size": 79}
+                       ]},
+                {"name": "dataDepth",
+                "children": 
+                       {"name": "indicator", "size": 79}
+                }
+     ]
     ]
 }
