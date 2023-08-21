@@ -7,14 +7,14 @@
      {"name": "averagePeerScore ", "size": 4000},
      {"name": "dataDepth ",
       "children": 
-        {"name": "indicator", "size": 35002}
+        {"name": "indicator", "size": 3502}
      },
      {"name": "environmentalRanking",
      "children": 
          [
-                {"name": "Score", "size": 35002},
-                {"name": "peerPercentileGroup ", "size": 35002},
-                {"name": "averagePeerScore", "size": 35002},
+                {"name": "Score", "size": 10000},
+                {"name": "peerPercentileGroup ", "size": 10000},
+                {"name": "averagePeerScore", "size": 10000},
                 {"name": "scoreReasons",
                  "children": [
                        
@@ -23,7 +23,7 @@
                             {"name": "priority", "size": 709}
                             
                 ]},
-                {"name": "naturalResourcesScore", "size": 35002},
+                {"name": "naturalResourcesScore", "size": 10000},
                 {"name": "naturalResourcesTopics",
                 "children": [
                        
@@ -122,9 +122,9 @@
     {"name": "governanceRanking",
         "children": [
            
-                {"name": "Score", "size": 35002},
-                {"name": "peerPercentileGroup", "size": 35002},
-                {"name": "averagePeerScore", "size": 35002},
+                {"name": "Score", "size": 10000},
+                {"name": "peerPercentileGroup", "size": 10000},
+                {"name": "averagePeerScore", "size": 10000},
                 {"name": "scoreReasons",
                 "children": [
                        
@@ -132,19 +132,19 @@
                             {"name": "dnbCode", "size": 709},
                             {"name": "priority", "size": 709}
                        ]},
-                {"name": "BuisinessResilienceScore", "size": 35002},
+                {"name": "BuisinessResilienceScore", "size": 10000},
                 {"name": "humanCapitalTopic",
                  "children": 
                        {"name": "buisinessResilienceSustainabilityScore", "size": 709}
                 },
-                {"name": "corporateBehaviorScore", "size": 35002},
+                {"name": "corporateBehaviorScore", "size": 10000},
                 {"name": "corporateBehaviorTopics",
                 "children": [
                        
                             {"name": "corporateComplianceBehaviorScore", "size": 79},
                             {"name": "governanceRelatesCertificationsScore", "size": 79}
                        ]},
-                {"name": "corporateGovernanceScore", "size": 35002},
+                {"name": "corporateGovernanceScore", "size": 10000},
                 {"name": "corporateGovernanceTopics",
                     "children": [
                        
